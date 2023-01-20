@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1dbd1c8ef4b14c7d9e9d36824e13787b" Name="Diagram1">
+        <EntityTypeShape EntityType="PaymentsModel.category" Width="1.5" PointX="0.75" PointY="1.5" />
+        <EntityTypeShape EntityType="PaymentsModel.Pay" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="PaymentsModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="PaymentsModel.Users" Width="1.5" PointX="0.75" PointY="5.125" />
+        <AssociationConnector Association="PaymentsModel.FK_Pay_category" />
+        <AssociationConnector Association="PaymentsModel.FK_Pay_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
